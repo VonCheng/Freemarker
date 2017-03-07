@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FreemarkerDemoApplication {
+public class FreemarkerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FreemarkerDemoApplication.class, args);
+		SpringApplication.run(FreemarkerApplication.class, args);
 	}
 }
