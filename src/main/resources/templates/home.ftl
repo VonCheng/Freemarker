@@ -12,9 +12,9 @@
     <p>用户信息 id ${id}； name ${user.name}； age ${user.age}；sex ${user.sex}</p>
 <ul class="nav nav-tabs">
     <li class="active">
-        <a href="#">首页</a>
+        <a href="#">首页xsw</a>
     </li>
-    <li><a href="/admin">机构</a></li>
+    <li><a href="/admin">机构f</a></li>
     <li><a href="#">商品</a></li>
 </ul>
 </body>
