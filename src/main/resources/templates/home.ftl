@@ -14,8 +14,9 @@
     <li class="active">
         <a href="#">首页xsw</a>
     </li>
-    <li><a href="/admin">机构f</a></li>
-    <li><a href="#">商品</a></li>
+    <li><a href="/admin">机构</a></li>
+    <li><a href="/header">头部</a></li>
 </ul>
+<div></div>
 </body>
 </html>

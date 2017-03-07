@@ -1,0 +1,18 @@
+body {
+    margin: 1px;
+}
+.platform-header {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+}
+.platform-header .platform-welcome-logo {
+    display: inline-block;
+    margin-left: 10px;
+}
+.platform-header .account-info {
+    display: inline-block;
+    float: right;
+    line-height: 95px;
+    margin: 0px;
+    margin-right: 20px;
+}

@@ -13,15 +13,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AppController {
     @RequestMapping(value = "/home")
     public String home(@RequestParam(value = "id", required = false, defaultValue = "chengpu") String id, Model model) {
-        User user = new User("deff", "18", "famale");
+        User user = new User("deft", "18", "famale");
         model.addAttribute("id", id);
         model.addAttribute("user", user);
         return "home";
     }
     @RequestMapping(value = "/admin")
     public String admin(Model model) {
-        User user = new User("deff", "18", "famale");
+        User user = new User("deft", "18", "famale");
         model.addAttribute("user", user);
         return "admin";
+    }
+    @RequestMapping(value = "/header")
+    public String header() {
+        return "header";
     }
 }
