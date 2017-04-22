@@ -6,26 +6,52 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
+import java.util.Map;
+
 /**
  * Created by pc on 2017/3/6.
  */
 @Controller
 public class AppController {
-    @RequestMapping(value = "/home")
+    @RequestMapping(value = "/hometest")
     public String home(@RequestParam(value = "id", required = false, defaultValue = "chengpu") String id, Model model) {
         User user = new User("deft", "18", "famale");
-        model.addAttribute("id", id);
+        model.addAttribute("home", "active");
+        model.addAttribute("organization", "normal");
+        model.addAttribute("header", "normal");
         model.addAttribute("user", user);
+        model.addAttribute("id", id);
         return "home";
     }
     @RequestMapping(value = "/admin")
-    public String admin(Model model) {
-        User user = new User("deft", "18", "famale");
-        model.addAttribute("user", user);
+    public String admin(@RequestParam(value = "id", required = false, defaultValue = "chengpu") String id, Model model) {
+        if (id.equals("organization")) {
+            User user = new User("deft", "18", "famale");
+            model.addAttribute("home", "normal");
+            model.addAttribute("organization", "active");
+            model.addAttribute("header", "normal");
+            model.addAttribute("user", user);
+            model.addAttribute("id", id);
+            ArrayList arrayList = new ArrayList();
+            for (int i = 0; i < 6; i++) {
+                arrayList.add(i, i);
+            }
+            model.addAttribute("animals", arrayList);
+            return "home";
+        } else if (id.equals("header"))  {
+            User user = new User("deft", "18", "famale");
+            model.addAttribute("home", "normal");
+            model.addAttribute("organization", "normal");
+            model.addAttribute("header", "active");
+            model.addAttribute("user", user);
+            model.addAttribute("id", id);
+            return "header";
+        }
         return "admin";
     }
-    @RequestMapping(value = "/header")
+    @RequestMapping(value = "/home")
     public String header() {
-        return "header";
+        return "pages/homePage";
     }
 }
