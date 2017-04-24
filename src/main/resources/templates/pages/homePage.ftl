@@ -3,7 +3,7 @@
 <#include "../common/dependency.ftl" />
 <#include "../common/WBH.ftl" />
 
-<@WBH title="chengpu"; x>
+<@WBH title="首页"; x>
 <#assign x=x/>
 
 <@dependency>
@@ -12,15 +12,17 @@
 </@dependency>
 
 <@content>
-
+asdsadsa
+<#list [1,2,3] as cc>
+    ${cc}
     <@goodsCell>
         GG
     </@goodsCell>
     external
-
-
+</#list>
 
 </@content>
+
 
 </@WBH>
 
