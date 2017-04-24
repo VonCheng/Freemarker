@@ -8,6 +8,6 @@
     </@dependency>
 
     <@content>
-        <#nested />
+        
     </@content>
 </#macro>
