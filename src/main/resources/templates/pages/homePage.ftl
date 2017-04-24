@@ -1,23 +1,18 @@
-<#include "../components/goodsCell.ftl" />
+<#include "../components/tile.ftl" />
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
 <#include "../common/WBH.ftl" />
-
-
 <@WBH title="chengpu"; chunk>
     <#assign chunk=chunk/>
 
     <@dependency>
-        <@goodsCell/>
-
+        <@tile/>
     </@dependency>
 
     <@content>
+        <@tile>
 
-
-        <@goodsCell>
-            GG
-        </@goodsCell>
+        </@tile>
         external1
     </@content>
 
