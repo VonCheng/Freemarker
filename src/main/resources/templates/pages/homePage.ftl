@@ -1,4 +1,4 @@
-<#include "../components/goodsCell.ftl" />
+<#include "../components/tile.ftl" />
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
 <#include "../common/WBH.ftl" />
@@ -6,14 +6,13 @@
     <#assign chunk=chunk/>
 
     <@dependency>
-        <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
-        <@goodsCell/>
+        <@tile/>
     </@dependency>
 
     <@content>
-        <@goodsCell>
+        <@tile>
 
-        </@goodsCell>
+        </@tile>
         external1
     </@content>
 
