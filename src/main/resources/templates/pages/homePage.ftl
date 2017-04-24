@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <#include "../common/header.ftl" />
 <title>冻品汇商城--买冻品，上冻品汇</title>
 <link rel="stylesheet" href="/common/styles/base.css">
@@ -13,5 +14,27 @@
     <#include "../components/topNav.ftl">
     <#include "../components/headerSearch.ftl">
 </div>
+=======
+<#include "../components/goodsCell.ftl" />
+<#include "../common/content.ftl" />
+<#include "../common/dependency.ftl" />
+<#include "../common/WBH.ftl" />
 
-<#include "../common/footer.ftl" />
+<@WBH title="chengpu"; x>
+<#assign x=x/>
+
+<@dependency>
+    <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
+    <@goodsCell/>
+</@dependency>
+
+<@content>
+    <@goodsCell>
+        GG
+    </@goodsCell>
+    external
+</@content>
+
+</@WBH>
+>>>>>>> 2ee964d272630c0e12abe1af90e1c6c3a4bd9fa4
+
