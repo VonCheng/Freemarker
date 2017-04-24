@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="common/styles/font-awesome.min.css">
     <title>${title}</title>
     <#nested "style"/>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 </head>
 <body>
 <div class="dph-mall-container">
     <#nested "content"/>
 </div>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+<script src="common/js/jquery-3.1.1.min.js"></script>
 </body>
 </html>
 </#macro>
