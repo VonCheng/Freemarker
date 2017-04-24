@@ -19,8 +19,8 @@
                     <!-- Add Pagination -->
                     <div class="swiper-pagination swiper-pagination-white"></div>
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <#--<div class="swiper-button-next swiper-button-white"></div>-->
+                    <#--<div class="swiper-button-prev swiper-button-white"></div>-->
                 </div>
                 <script src="common/js/swiper-3.4.2.jquery.min.js" type="text/javascript"></script>
                 <script>
@@ -30,7 +30,10 @@
                         nextButton: '.swiper-button-next',
                         prevButton: '.swiper-button-prev',
                         spaceBetween: 30,
-                        effect: 'fade'
+                        autoplay: 3000,
+                        autoplayDisableOnInteraction: false,
+                        effect: 'fade',
+                        //loop: true
                     });
                 </script>
             </div>
