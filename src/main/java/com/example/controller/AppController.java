@@ -54,4 +54,9 @@ public class AppController {
     public String header() {
         return "pages/homePage";
     }
+
+    @RequestMapping(value = "/index")
+    public String ccc(@RequestParam(value = "id", required = false, defaultValue = "chengpu") String id, Model model) {
+        return "pages/index";
+    }
 }

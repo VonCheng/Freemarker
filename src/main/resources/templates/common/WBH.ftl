@@ -17,6 +17,7 @@
 <div class="dph-mall-container">
     <#nested "content"/>
 </div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 </body>
 </html>
 </#macro>
