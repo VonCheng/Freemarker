@@ -36,6 +36,9 @@ img {
 img,input {
     vertical-align: middle
 }
+a {
+    text-decoration: none;
+}
 .clearfix:after,
 .clearfix:before {
     display: table;
