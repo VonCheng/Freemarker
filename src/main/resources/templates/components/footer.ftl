@@ -9,8 +9,10 @@
 
     <@content>
     <div id="footer">
-        <h5>客户热线：400-168-9293   重庆戈云沃网络科技有限公司</h5>
-        <p>© 2016 dph168.com All Rights Reserved 渝ICP备 16003225号</p>
+        <div class="footer-content">
+            <h5>客户热线：400-168-9293   重庆戈云沃网络科技有限公司</h5>
+            <p>© 2016 dph168.com All Rights Reserved 渝ICP备 16003225号</p>
+        </div>
     </div>
     </@content>
 
