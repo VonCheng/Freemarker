@@ -2,17 +2,19 @@
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
 <#include "../common/WBH.ftl" />
-
+<#include "../components/categoryTitle.ftl" />
 
 <@WBH title="chengpu"; chunk>
     <#assign chunk=chunk/>
 
     <@dependency>
-        <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
         <@goodsCell/>
+        <@categoryTitle />
     </@dependency>
 
     <@content>
+
+        <@categoryTitle />
         <@goodsCell>
             GG
         </@goodsCell>
