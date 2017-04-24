@@ -11,7 +11,6 @@
 
     <@content>
         <@newRecommend/>
-        <@categoryRecommend/>
     </@content>
 
 </@WBH>

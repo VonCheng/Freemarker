@@ -30,11 +30,18 @@
     </@dependency>
 
     <@content>
-    <div class= "goods-cell-recommend-content">
-                <#list 1..5 as n>
+    <div class="goods-new-recommend">
+        <div class="chunk-title">
+            - - 新品推荐 - -
+        </div>
+        <div class= "goods-cell-recommend-content">
+
+            <#list 1..5 as n>
                     <@tile type="big"/>
                 </#list>
+        </div>
     </div>
+
     </@content>
 </#macro>
 
