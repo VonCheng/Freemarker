@@ -3,24 +3,21 @@
 <#include "../common/dependency.ftl" />
 <#include "../common/WBH.ftl" />
 
-<@WBH title="chengpu"; x>
-<#assign x=x/>
 
-<@dependency>
-    <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
-    <@goodsCell/>
-</@dependency>
+<@WBH title="chengpu"; chunk>
+    <#assign chunk=chunk/>
 
-<@content>
+    <@dependency>
+        <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
+        <@goodsCell/>
+    </@dependency>
 
-    <@goodsCell>
-        GG
-    </@goodsCell>
-    external
-
-
-
-</@content>
+    <@content>
+        <@goodsCell>
+            GG
+        </@goodsCell>
+        external1
+    </@content>
 
 </@WBH>
 

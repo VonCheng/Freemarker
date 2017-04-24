@@ -1,5 +1,6 @@
+<#assign chunk="" />
 <#macro content>
-    <#if x=="content">
+    <#if chunk=="content">
         <#nested />
     </#if>
 </#macro>
