@@ -79,25 +79,35 @@
           width: 25%;
           float: left;
           text-align: center;
-          i {
-            font-size: 14px;
-            color: @orange;
-          }
-          i.last {
+          a {
             color: #666;
-          }
-          p {
-            font-size: 14px;
-            color: #666;
-            margin-top: 10px;
+            &:hover {
+              color: @orange;
+            }
+            i {
+              font-size: 14px;
+              color: @orange;
+            }
+            i.last {
+              color: #666;
+            }
+            p {
+              font-size: 14px;
+              margin-top: 10px;
+            }
           }
         }
       }
     }
     .panel-bulletin {
-      padding: 22px 9px 0 9px;
+      height: 160px;
+      overflow: hidden;
+      padding: 22px 9px ;
       border-top: 1px solid @line;
       dl {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
         font-size: 14px;
         dt {
           color: #000;
