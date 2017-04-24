@@ -37,7 +37,51 @@
                     });
                 </script>
             </div>
-            <div class="user-panel"></div>
+            <div class="user-panel">
+                <div class="panel-top">
+                    <div class="user-content clearfix">
+                        <div class="user-img"><img src="common/images/user_img.png" alt="userImg"></div>
+                        <div class="user-info">
+                            <h3>范冰冰大美女</h3>
+                            <p>欢迎光临！</p>
+                        </div>
+                    </div>
+                    <ul class="panel-order-status clearfix">
+                        <li>
+                            <a href="">
+                                <i>2</i>
+                                <p>待审核</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i>0</i>
+                                <p>待发货</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i>5</i>
+                                <p>待收货</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="last">52</i>
+                                <p>已完成</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-bulletin">
+                    <dl>
+                        <dt>公告 <a class="more" href="">更多</a></dt>
+                        <dd><a href="">关于佩熏品牌相关商品管控的公告</a></dd>
+                        <dd><a href="">食品安全管控</a></dd>
+                        <dd><a href="">公司服务类限售管控公告</a></dd>
+                    </dl>
+                </div>
+            </div>
         </div>
     </@content>
 
