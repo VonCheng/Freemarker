@@ -12,10 +12,11 @@
 
 #header {
   background-color: #fff;
+  border-bottom: 2px solid @orange;
   .header-content {
     width: 1190px;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 24px 0 16px 0;
     div {
       float: left;
     }
@@ -70,7 +71,7 @@
             display: inline-block;
             width: 1px;
             height: 13px;
-            background: #ccc;
+            background: @line;
             position: absolute;
             right: 0;
             top: 0;
@@ -113,6 +114,26 @@
         border-radius: 50%;
         background-color: @orange;
         color: #fff;
+      }
+    }
+  }
+  .header-nav {
+    width: 1190px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    padding-left: 280px;
+    .header-nav-ul {
+      li {
+        float: left;
+        margin-right: 70px;
+        a {
+          font-size: 16px;
+          color: #000;
+        }
+        &.active a{
+          color: @orange;
+        }
       }
     }
   }

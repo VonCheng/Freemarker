@@ -1,5 +1,4 @@
 <!--头部信息-->
-
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
 
@@ -28,6 +27,13 @@
                 <a href="">我的购物车</a>
                 <i>2</i>
             </div>
+        </div>
+        <div class="header-nav">
+            <ul class="header-nav-ul clearfix">
+                <li class="active"><a href="">首页</a></li>
+                <li><a href="">供应商</a></li>
+                <li><a href="">活动专场</a></li>
+            </ul>
         </div>
     </div>
     </@content>
