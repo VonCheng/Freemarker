@@ -9,7 +9,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="format-detection" content="telephone=no, email=no">
-    <link rel="shortcut icon" href="http://fn.test.dph168.com/finance/src/favicon_.ico">
+    <link rel="stylesheet" href="common/styles/base.css">
     <link rel="stylesheet" href="common/styles/font-awesome.min.css">
     <title>${title}</title>
     <#nested "style"/>
@@ -17,8 +17,8 @@
 <body>
 <div class="dph-mall-container">
     <#nested "content"/>
-
 </div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 </body>
 </html>
 </#macro>

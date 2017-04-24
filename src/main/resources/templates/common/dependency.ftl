@@ -1,5 +1,6 @@
+<#assign chunk="" />
 <#macro dependency>
-    <#if x=="style">
+    <#if chunk=="style">
         <#nested />
     </#if>
 </#macro>
