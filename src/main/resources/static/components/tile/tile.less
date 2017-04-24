@@ -7,14 +7,66 @@
   float: left;
   margin-right: 37px;
 }
+.goods-cell-translate-mixin {
+  top: 50%;
+  left: 50%;
+  top: 0\9;
+  left: 0\9;
+  top: 50%\9\0;
+  left: 50%\9\0;
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  -moz-transition: width .3s;
+  -ms-transition: width .3s;
+  -o-transition: width .3s;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
 .goods-cell-content {
-  .goods-cell-small-img{
+  .goods-cell-small-div {
     width: 180px;
     height:180px;
+    position: relative;
+    .goods-cell-small-img-block {
+      width: 100%;
+      height:100%;
+    }
+    .goods-cell-small-img{
+      width: 100%;
+      height:100%;
+      position: absolute;
+
+      .goods-cell-translate-mixin;
+
+      &:hover {
+        width: 105%;
+        height: 105%;
+      }
+    }
   }
-  .goods-cell-big-img{
-    width: 200px;
-    height:200px;
+
+  .goods-cell-big-div {
+      width: 200px;
+      height:200px;
+      position: relative;
+    .goods-cell-big-img-block {
+      width: 100%;
+      height:100%;
+    }
+    .goods-cell-big-img{
+      width: 100%;
+      height:100%;
+      position: absolute;
+      .goods-cell-translate-mixin;
+
+      &:hover {
+        width: 105%;
+        height: 105%;
+      }
+    }
   }
   .goods-cell-title {
     font-size: 16px;
@@ -39,8 +91,26 @@
     font-size: 22px;
     color: #000000;
   }
-  .goods-cell-recommend-content {
+  .swiper-container {
+    height:321px;
     width: 1190px;
+    .swiper-button-next.custom-left-swiper {
+      background-image: url("../../common/images/swiperRight.png");
+
+      width: 30px;
+      height:30px;
+      -webkit-background-size:30px 30px;
+      background-size: 30px 30px;
+    }
+    .swiper-button-prev.custom-right-swiper {
+      background-image: url("../../common/images/swiperLeft.png");
+      width: 30px;
+      height:30px;
+      -webkit-background-size:30px 30px;
+      background-size:30px 30px;
+    }
+  }
+  .goods-cell-recommend-content {
     padding: 20px;
     height: 321px;
     margin: auto;
