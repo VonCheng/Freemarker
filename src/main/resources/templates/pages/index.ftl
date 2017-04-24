@@ -4,8 +4,8 @@
 <#include "../components/headerSearch.ftl">
 <#include "../components/topNav.ftl">
 
-<@WBH title="冻品汇商城--买冻品，上冻品汇"; x>
-    <#assign x=x/>
+<@WBH title="冻品汇商城--买冻品，上冻品汇"; chunk>
+    <#assign chunk=chunk/>
 
     <@dependency>
         <@topNav/>
