@@ -13,7 +13,8 @@
     <@content>
 
         goodsCell
-        <@hh></@hh>
+        <@hh>
+        </@hh>
         goodsCell
         <#nested />
     </@content>
