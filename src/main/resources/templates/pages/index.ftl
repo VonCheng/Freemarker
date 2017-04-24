@@ -19,7 +19,7 @@
     <@content>
         <@topNav/>
         <@headerSearch/>
-        <@banner/>
+        <@banner loginStatus=false/>
         <@footer/>
     </@content>
 
