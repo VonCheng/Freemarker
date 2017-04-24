@@ -1,9 +1,22 @@
-<#include "../common/header.ftl" />
-<title>首页</title>
-<#include "../common/body.ftl" />
+<#include "../components/goodsCell.ftl" />
+<#include "../common/content.ftl" />
+<#include "../common/dependency.ftl" />
+<#include "../common/WBH.ftl" />
 
-<div class="home-page">
-    西安市新1
-</div>
+<@WBH title="chengpu"; x>
+<#assign x=x/>
 
-<#include "../common/footer.ftl" />
+<@dependency>
+    <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet">
+    <@goodsCell/>
+</@dependency>
+
+<@content>
+    <@goodsCell>
+        GG
+    </@goodsCell>
+    external
+</@content>
+
+</@WBH>
+
