@@ -10,10 +10,7 @@
     </@dependency>
 
     <@content>
-        <@tile>
-
-        </@tile>
-        external1
+        <@newRecommend/>
     </@content>
 
 </@WBH>

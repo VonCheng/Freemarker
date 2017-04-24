@@ -1,4 +1,149 @@
+.goods-cell-small {
+  width: 180px;
+  float: left;
+}
+.goods-cell-big {
+  width:200px;
+  float: left;
+  margin-right: 37px;
+}
 .goods-cell-content {
-  img{
+  .goods-cell-small-img{
+    width: 180px;
+    height:180px;
+  }
+  .goods-cell-big-img{
+    width: 200px;
+    height:200px;
+  }
+  .goods-cell-title {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333333;
+  }
+  .goods-cell-size {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+  }
+  .goods-cell-price {
+    font-size: 16px;
+    color: #ff7328;
+    margin-top: 16px;
+  }
+}
+.goods-new-recommend {
+  .chunk-title {
+    line-height: 90px;
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+  }
+  .goods-cell-recommend-content {
+    width: 1190px;
+    padding: 20px;
+    height: 321px;
+    margin: auto;
+    background-color: white;
+
+    .goods-cell-content {
+      &:nth-last-of-type(1){
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+.goods-cell-door-content {
+  background-color: #C06D74;
+  width:288px;
+  height:588px;
+  padding-top:50px;
+  float: left;
+  .goods-cell-floor-number {
+    border: 2px solid white;
+    width: 44px;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .goods-cell-door-title {
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 22px;
+  }
+  .separate-line {
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 224px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 40px;
+  }
+  .category-enter-list {
+    margin-top: 18px;
+    height: 66px;
+    overflow: hidden;
+    padding-left: 17px;
+    padding-right: 11px;
+    .category-enter-list-clip {
+      overflow: hidden;
+      .category-enter-list-clip-target {
+        height: 66px;
+        width: 264px;
+        position: relative;
+        left: -4px;
+        .category-enter {
+          color: #FFFFFF;
+          min-width: 66px;
+          display: inline-block;
+          float: left;
+          font-size: 16px;
+          margin-bottom: 20px;
+          .category-enter-separator-vertical {
+            width: 1px;
+            display: inline-block;
+            height: 16px;
+            position: relative;
+            top: 3px;
+            background-color: white;
+          }
+          .category-enter-title {
+            margin-left: 11px;
+            margin-right: 16px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+  }
+
+  .goods-cell-door-image {
+    width: 288px;
+    height: 315px;
+
+  }
+}
+.goods-cell-category-recommend-content {
+  width:1190px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 74px;
+  height:590px;
+  .goods-cell-category-recommend-list {
+    padding: 20px 0px;
+    width:902px;
+    float: left;
+    height: 588px;
+    background-color: #FFFFFF;
+    .goods-cell-small {
+      margin-left: 40px;
+      margin-bottom: 40px;
+    }
   }
 }
