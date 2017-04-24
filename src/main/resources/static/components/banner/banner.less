@@ -17,6 +17,7 @@
   padding-left: 200px;
   border: 1px solid @line;
   border-top: none;
+  background: #fff;
   >div {
     float: left;
   }
@@ -74,6 +75,9 @@
             color: #000;
           }
         }
+        .user-info.not {
+          line-height: 50px;
+        }
       }
       .panel-order-status {
         padding-bottom: 20px;
@@ -98,6 +102,26 @@
               margin-top: 10px;
             }
           }
+        }
+      }
+      .login-button {
+        padding: 0 13px 31px;
+        .btn {
+          display: inline-block;
+          font-size: 14px;
+          width: 100px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+        }
+        .btn-orange {
+          background: @orange;
+          color: #fff;
+        }
+        .btn-outline {
+          border: 1px solid @orange;
+          color: @orange;
+          margin-left: 6px;
         }
       }
     }

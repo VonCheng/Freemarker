@@ -57,3 +57,7 @@ a {
 .clearfix {
     zoom: 1;
 }
+
+.dph-mall-container {
+    min-width: 1190px;
+}

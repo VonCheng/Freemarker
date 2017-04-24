@@ -11,6 +11,7 @@
     <meta name="format-detection" content="telephone=no, email=no">
     <link rel="stylesheet" href="common/styles/base.css">
     <link rel="stylesheet" href="common/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="common/styles/categoryFont.css">
     <title>${title}</title>
     <#nested "style"/>
     <script src="common/js/jquery-3.1.1.min.js"></script>
