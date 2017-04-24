@@ -8,5 +8,11 @@
     </@dependency>
 
     <@content>
+
+        goodsCell
+        <@hh>
+        </@hh>
+        goodsCell
+        <#nested />
     </@content>
 </#macro>

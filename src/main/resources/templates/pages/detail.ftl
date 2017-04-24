@@ -1,15 +1,16 @@
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
+<#include "../common/WBH.ftl" />
 
-<#macro hh >
+<@WBH title="chengpu"; x>
+    <#assign x=x/>
+
     <@dependency>
-    <link href="http://cdn.bootcss.com/hh.css" rel="stylesheet">
 
     </@dependency>
 
     <@content>
-    hh
-        <#nested />
+
     </@content>
 
-</#macro>
+</@WBH>
