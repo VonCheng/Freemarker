@@ -7,7 +7,7 @@
 <#assign x=x/>
 
 <@dependency>
-    <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/homepage.css" rel="stylesheet" >
     <@goodsCell/>
 </@dependency>
 
