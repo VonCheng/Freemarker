@@ -22,13 +22,9 @@
     <@content>
         <@topNav/>
         <@headerSearch/>
-<<<<<<< HEAD
         <@banner loginStatus=false/>
-=======
-        <@banner/>
         <@newRecommend/>
         <@categoryRecommend/>
->>>>>>> 09ec678a98910c098a82d0f240499f61a93e4a17
         <@footer/>
     </@content>
 
