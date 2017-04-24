@@ -1,10 +1,12 @@
 <!--头部信息-->
 <#include "../common/content.ftl" />
 <#include "../common/dependency.ftl" />
+<#include "./categoryTitle.ftl">
 
 <#macro headerSearch >
     <@dependency>
     <link href="components/headerSearch/headerSearch.less" rel="stylesheet/less" type="text/css">
+    <link href="components/categoryTitle/categoryTitle.less" rel="stylesheet/less" type="text/css">
     </@dependency>
 
     <@content>
@@ -29,6 +31,7 @@
             </div>
         </div>
         <div class="header-nav">
+            <@categoryTitle isShow="block"/>
             <ul class="header-nav-ul clearfix">
                 <li class="active"><a href="">首页</a></li>
                 <li><a href="">供应商</a></li>
