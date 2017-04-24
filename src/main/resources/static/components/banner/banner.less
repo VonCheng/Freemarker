@@ -12,19 +12,124 @@
 
 #banner {
   width: 1190px;
-  height: 340px;
+  height: 341px;
   margin: 0 auto;
   padding-left: 200px;
   border: 1px solid @line;
+  border-top: none;
   >div {
     float: left;
   }
-  .swiper-container {
-    width: 750px;
-    height: 340px;
+  .banner-content {
     .swiper-container {
       width: 750px;
       height: 340px;
+      .swiper-container {
+        width: 750px;
+        height: 340px;
+      }
+    }
+  }
+  .user-panel {
+    width: 238px;
+    height: 340px;
+    border-left: 1px solid @line;
+    .panel-top {
+      .user-content {
+        padding: 32px 10px 36px 18px;
+        width: 100%;
+        overflow: hidden;
+        >div {
+          float: left;
+        }
+        .user-img {
+          width: 50px;
+          height:50px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          overflow: hidden;
+          img {
+            width: 50px;
+            height:50px;
+          }
+        }
+        .user-info {
+          height: 50px;
+          width: 158px;
+          padding-left: 12px;
+          padding-top: 5px;
+          h3 {
+            font-size: 14px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 8px;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          p {
+            font-size: 14px;
+            color: #000;
+          }
+        }
+      }
+      .panel-order-status {
+        padding-bottom: 20px;
+        li {
+          width: 25%;
+          float: left;
+          text-align: center;
+          a {
+            color: #666;
+            &:hover {
+              color: @orange;
+            }
+            i {
+              font-size: 14px;
+              color: @orange;
+            }
+            i.last {
+              color: #666;
+            }
+            p {
+              font-size: 14px;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+    .panel-bulletin {
+      height: 160px;
+      overflow: hidden;
+      padding: 22px 9px ;
+      border-top: 1px solid @line;
+      dl {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        font-size: 14px;
+        dt {
+          color: #000;
+          margin-bottom: 22px;
+        }
+        .more {
+          float: right;
+          color: #999;
+        }
+        dd {
+          margin-bottom: 14px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          a {
+            color: #666;
+          }
+        }
+
+      }
     }
   }
 }
