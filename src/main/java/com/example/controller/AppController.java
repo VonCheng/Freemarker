@@ -59,4 +59,10 @@ public class AppController {
     public String ccc(@RequestParam(value = "id", required = false, defaultValue = "chengpu") String id, Model model) {
         return "pages/index";
     }
+    // 登录页面
+    @RequestMapping(value = "/login")
+    public String login(Model model) {
+        model.addAttribute("loginType", "supplier");
+        return "pages/login";
+    }
 }

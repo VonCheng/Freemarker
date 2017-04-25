@@ -85,8 +85,8 @@
                             </div>
                         </div>
                         <div class="login-button">
-                            <a class="btn btn-orange" href="">用户登录</a>
-                            <a class="btn btn-outline" href="">供应商登录</a>
+                            <a class="btn btn-orange" href="login">用户登录</a>
+                            <a class="btn btn-outline" href="login">供应商登录</a>
                         </div>
                     </div>
                 </#if>

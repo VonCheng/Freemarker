@@ -61,3 +61,10 @@ a {
 .dph-mall-container {
     min-width: 1190px;
 }
+
+@font-face {
+    font-family: 'fzzhjw';
+    url('../fonts/FZZHJWGB10/FZZHJW10.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
