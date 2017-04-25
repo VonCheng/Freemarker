@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="login-forget">
                                     <a class="forger-pwd" href="">忘记密码？</a>
-                                    <a href="">立即入驻？</a>
+                                    <a href="">立即入驻</a>
                                 </div>
                             </div>
                         </div>
